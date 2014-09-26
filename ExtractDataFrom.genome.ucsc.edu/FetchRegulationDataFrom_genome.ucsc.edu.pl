@@ -1,4 +1,10 @@
 #!/usr/bin/perl -w
+#------------------------------------------------------------------------------
+# Extract alpha-globin regulation data from UCSC website
+# Author: Yun Xu
+# Data: Sep 1, 2014
+# Usage: perl FetchRegulationDataFrom_genome.ucsc.edu.pl
+#------------------------------------------------------------------------------
 
 use HTTP::Request::Common qw(POST);
 use LWP::UserAgent;

@@ -1,11 +1,11 @@
 #!/bin/bash 
-# -----------------------------
+#------------------------------------------------------------------------------
 # Real-time Irvine local traffic map for GeekTool
 # Author: Yun Xu
 #   Date: Jan 6, 2013 
 #  Usage: sh ChicagoTraffic.sh 12
 # Parameter ZoomLevel can be changed, default is 12
-# -----------------------------
+#------------------------------------------------------------------------------
 
 function CheckConnection(){
  PackageRecieved=$(ping -c 1 -q -W 2  google.com 2>/dev/null| grep trans | awk '{print $4}')
